@@ -198,3 +198,7 @@
 192.168.20.112 - - [23/Sep/2019:19:44:59 -0700] "GET /favicon.ico HTTP/1.1" 200 809 "http://192.168.20.101/whateverpathyouwant?abunchmoreshit=somerandomvalue&anotherkey=anothervalueofsomekind" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
 192.168.20.112 - - [23/Sep/2019:19:45:11 -0700] "GET /whateverpathyouwant?abunchmoreshit=somerandomvalue&anotherkey=anothervalueofsomekind HTTP/1.1" 200 789 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
 192.168.20.112 - - [23/Sep/2019:19:45:11 -0700] "GET /favicon.ico HTTP/1.1" 200 726 "http://192.168.20.101/whateverpathyouwant?abunchmoreshit=somerandomvalue&anotherkey=anothervalueofsomekind" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36"
+::1 - - [23/Sep/2019:19:49:27 -0700] "GET / HTTP/1.0" 200 794 "-" "-"
+::1 - - [23/Sep/2019:19:49:45 -0700] "GET / HTTP/1.1" 400 173 "-" "-"
+::1 - - [23/Sep/2019:19:49:57 -0700] "GET / HTTP/1.1" 200 830 "-" "-"
+::1 - - [23/Sep/2019:19:50:01 -0700] "\xFF\xF4\xFF\xFD\x06" 400 173 "-" "-"
